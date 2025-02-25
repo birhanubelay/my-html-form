@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in form</title>
+    <style>
+        body{
+            background-color:bisque;
+        }
+        form {
+            margin: 0 auto;
+            padding: 8px;
+            border: solid 1px black;
+            width: 40%;
+            background-color: white;
+        }
+        .input{
+            padding: 12px 8px;
+            width:90%;
+            margin: 10px 0;
+            border: solid 1px;
+        }
+        #submit_button{
+            background: none;
+            width: 91.5%;
+            border: none;
+            padding: 12px 8px;
+            background-color:rgb(2, 1, 1);
+            color:white;
+            cursor:pointer;
+            margin:10px 0;
+            text-align: center;
+        }
+        #google-icon{
+            width: 30px;
+            height: 25px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left:270px;
+         }
+         #facebook-icon{
+            width: 30px;
+            height: 25px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 70px;
+         }
+         a{
+            text-decoration:none;
+            color:black;
+         }
+    </style>
+</head>
+<body>
+    <!-- This is sign in page -->
+    <form>
+        <pr>Don't have an account?<b><a href="index.html">Sign Up</a></b></pr>
+        <br>
+        <br>
+        <h1><b>Sign In</b></h1>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input class="input" type="email" id="email" placeholder="sadeksaadi2@Gmail.Com" required/>
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input class="input" type="password" id="password" placeholder="XAxls566@" required/>
+        <br>
+        <br>
+        <!-- The privacy policy and terms of service links don't have any contents here -->
+        <input type="checkbox" id="confirm" required/>
+        <label for="confirm">I've Read And Agreed With <b>The Terms Of Service</b> And Our <b>Privacy Policy</b>.</label>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="submit" id="submit_button"><a href="table.html"style="color:white;" >Sign in</a> </button>
+        <pr>___________________________________Or Sign Up With___________________________________</pr>
+        <br>
+        <a href="https://www.google.com/"><img id="google-icon" src="image/google-brands.ico"></a>
+        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img id="facebook-icon" src="image/facebook-brands.ico"></a>
+    </form>
+</body>
+</html>
