@@ -1,0 +1,104 @@
+body{
+    background-color:white;
+}
+.outer {
+    float: center;
+    width:60%;
+    margin: 0 auto;
+    border: solid 2px rgb(238, 214, 235);
+    background-color:rgb(238, 214, 235);
+    height: 800px;
+} 
+.input{
+    padding: 12px 8px;
+    width:90%;
+    margin: 10px 0;
+    border: solid 1px;
+}
+#submit_button{
+    background: none;
+    width: 95%;
+    border: none;
+    padding: 12px 8px;
+    background-color:#af17af;
+    color:rgb(241, 231, 231);
+    font-weight: bold;
+    cursor:pointer;
+    margin:10px 0;
+    text-align: center;
+    font-size: medium;
+}
+#google-icon{
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 100px;
+ }
+ #facebook-icon{
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 80px;
+ }
+ #apple-icon{
+    width: 30px;
+    height: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 80px;
+ }
+ a{
+    text-decoration:none; 
+    color: #af17af;
+    font-weight: bolder;
+ }
+ h1{
+   color: #af17af; 
+   width:300px;
+   font-size: 45px;
+   margin-left: 20%;
+ }
+ #p1{
+    font-weight: bold;
+    font-size:large;
+    color: gray;
+ }
+ #p2{
+    text-align:center;
+ }
+ #p3{
+    color: grey;
+    font-weight: bold;
+ }
+ .inner{
+    padding: 8px 12px 8px 50px;
+    width: 50%;
+    float:left;
+}
+form{
+    padding: 50px 0px 8px 20px;
+    width: 40%;
+    float:left;
+}
+.vertical {
+    border-left: 1px solid rgb(219, 157, 200);
+    height: 650px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+.label{
+    padding: 8px 20px 8px 0px;
+    width: 45%;
+    float:left;
+}
+#eye-icon{
+    position:relative;
+    cursor:pointer;
+    right: 30px;
+}
+.image{
+    display: flex;
+}

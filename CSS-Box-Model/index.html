@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form and css box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <h1>welcome to our community!</h1>
+            <img src="image/boxmodel.png">
+        </div>
+        <div class="vertical"></div>
+        <form>
+            <h2>Create Account</h2>
+            <p id="p1">Sign up to your account below.</p>
+            <div class="label">
+                <label for="first name">First Name</label>
+                <input class="input" type="text" id="name" placeholder="|" required/>
+            </div>
+                <div class="label">
+                <label for="last name">Last Name</label>
+                <input class="input" type="text" id="name" placeholder="|" required/>
+            </div>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input class="input" type="email" id="email" placeholder="   |" required/>
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input class="input" type="password" id="password" placeholder="   |" required/>
+            <i class="fas fa-eye" id="eye-icon"></i>
+            <br>
+            <br>
+            <label for="confirm password">Confirm Password</label>
+            <br>
+            <input class="input" type="password" id="confirm password" placeholder="   |" required/>
+            <i class="fas fa-eye" id="eye-icon"></i>
+            <br><br>
+            <button  id="submit_button" type="submit">Create Account</button>
+            <p id="p2">Already have an account?<a href=""> Sign In</a></p>
+            <p id="p3">___________________________or_______________________</p> 
+            <div class="image"> <a href="https://www.google.com/"><img id="google-icon" src="image/google.png"></a>
+                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><img id="facebook-icon" src="image/facebook.png"></a>
+                <a href="https://www.apple.com/"><img id="apple-icon" src="image/download.png"></a>    
+            </div>  
+        </form>
+    </div>
+</body>
+</html>
